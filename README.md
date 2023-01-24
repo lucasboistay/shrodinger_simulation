@@ -10,9 +10,9 @@ git clone https://github.com/Rockinfox91/tp_phys_num.git
 
 puis lancer Jupyter Notebook
 
-## Explication
-
 # Partie 1 - Etats stationnaires
+
+## Vérification de la validité du modèle numérique
 
 Le but ici est de modéliser numériquement des états stationnaires avec un potentiel indépendant du temps.
 
@@ -23,8 +23,15 @@ On va alors pour voir par exemple faire l'application numérique avec des potent
 
 Ce qui nous permet de les comparer aux résultats théorique et de vérifier la validité de la modélisation numérique.
 
+### Puit de potentiel infini
+
 ![](/etat_stationnaire/document/psi_fonction_de_x_puit_infini_n10.png?raw=true)
 ![](/etat_stationnaire/document/psi_fonction_de_x_puit_infini_n100.png?raw=true)
+
+### Potentiel Harmonique
+
+
+## Tentative avec d'autres potentiels plus compliqués
 
 Ensuite, on tente des potentiels plus complexes tel que :
 
