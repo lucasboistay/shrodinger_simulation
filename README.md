@@ -23,6 +23,9 @@ On va alors pour voir par exemple faire l'application numérique avec des potent
 
 Ce qui nous permet de les comparer aux résultats théorique et de vérifier la validité de la modélisation numérique.
 
+![](/etat_stationnaire/document/psi_fonction_de_x_puit_infini_n10.png?raw=true)
+![](/etat_stationnaire/document/psi_fonction_de_x_puit_infini_n100.png?raw=true)
+
 Ensuite, on tente des potentiels plus complexes tel que :
 
 - Le double puit de potentiel
@@ -30,9 +33,6 @@ Ensuite, on tente des potentiels plus complexes tel que :
 etc...
 
 On peut voir les résultats des rendus dans le dossier document, représenté avec p l'ordre du niveau d'énergie et n le nombre d'itération.
-
-![](/etat_stationnaire/document/psi_fonction_de_x_puit_infini_n10.png?raw=true)
-![](/etat_stationnaire/document/psi_fonction_de_x_puit_infini_n100.png?raw=true)
 
 # Partie 2 - ??
 
