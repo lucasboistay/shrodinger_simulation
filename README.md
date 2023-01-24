@@ -31,7 +31,8 @@ etc...
 
 On peut voir les résultats des rendus dans le dossier document, représenté avec p l'ordre du niveau d'énergie.
 
-![](/etat_stationnaire/document/psi_fonction_de_x_puit_infini.png?raw=true)
+![](/etat_stationnaire/document/psi_fonction_de_x_puit_infini_n10.png?raw=true)
+![](/etat_stationnaire/document/psi_fonction_de_x_puit_infini_n100.png?raw=true)
 
 # Partie 2 - ??
 
