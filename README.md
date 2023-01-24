@@ -1,4 +1,4 @@
-# tp_phys_num
+# TP de Physique Numérique : Dynamique Quantique
 Les tp de physique numérique pour modéliser et utiliser l'informatique dans la physique
 
 ## Installation 
