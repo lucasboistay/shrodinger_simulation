@@ -29,7 +29,9 @@ Ensuite, on tente des potentiels plus complexes tel que :
 - Potentiel périodique
 etc...
 
-On peut voir les résultats des rendus dans le dossier document, représenté avec p l'ordre du niveau d'énergie
+On peut voir les résultats des rendus dans le dossier document, représenté avec p l'ordre du niveau d'énergie.
+
+![](etat_stationnaire/document/psi_fonction_de_x_p0_potentiel_nul.pdf)
 
 # Partie 2 - ??
 
