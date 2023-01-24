@@ -31,7 +31,7 @@ etc...
 
 On peut voir les résultats des rendus dans le dossier document, représenté avec p l'ordre du niveau d'énergie.
 
-![](/etat_stationnaire/document/psi_fonction_de_x_p0_potentiel_nul.pdf)
+![](/etat_stationnaire/document/psi_fonction_de_x_p0_potentiel_nul.png)
 
 # Partie 2 - ??
 
