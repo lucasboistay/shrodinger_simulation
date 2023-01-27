@@ -1,5 +1,10 @@
 # TP de Physique Numérique : Dynamique Quantique
-Les tp de physique numérique pour modéliser et utiliser l'informatique dans la physique
+
+La possibilité de décrire l’évolution temporelle d’un système quantique, c’est à dire l’évolution au cours du temps de sa fonction d’onde $\Psi(\Vec{r}, t)$, est un des résultats majeurs de la physique quantique. Pour cela, il est nécessaire de résoudre **l’équation de Schrödinger** dépendante du temps :
+
+$$i \hbar \frac{\partial}{\partial t}\Psi(\mathbf{r},t) = \hat H \Psi(\mathbf{r},t)$$
+
+où $\hat{H}$ est le hamiltonien du système et où l’on suppose connue la fonction d’onde $\Psi(\Vec{r}, t =0)$ à un instant initial. Hormis quelques cas particuliers où des solutions analytiques peuvent êtres trouvées (souvent au prix d’approximations), on a recourt en général à des méthodes d’intégration numériques.
 
 ## Installation 
 
@@ -45,5 +50,7 @@ On peut voir les résultats des rendus dans le dossier document.
 
 # Partie 2 - Évolution temporelle dans le cas d’un puits infini et d’un potentiel harmonique
 
-On étudie dans cette partie l’évolution temporelle de la fonction d’onde $\Psi(x, t)$ d’un état
-décrit par une fonction d’onde initiale $\Psi(x, 0)$.
+On étudie dans cette partie l’évolution temporelle de la fonction d’onde $\Psi(x, t)$ d’un état décrit par une fonction d’onde initiale $\Psi(x, 0)$.
+
+On considèrera d’abord le puits infini et le potentiel harmonique, pour lesquelles les solutions analytiques exactes sont connues, afin de vérifier l’évolution temporelle obtenue numériquement.
+
