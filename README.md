@@ -33,7 +33,6 @@ Ce qui nous permet de les comparer aux résultats théorique et de vérifier la 
 ![](/etat_stationnaire/document/psi_fonction_de_x_harmonique_n10.png?raw=true)
 ![](/etat_stationnaire/document/psi_fonction_de_x_harmonique_n100.png?raw=true)
 
-
 ## Tentative avec d'autres potentiels plus compliqués
 
 Ensuite, on tente des potentiels plus complexes tel que :
