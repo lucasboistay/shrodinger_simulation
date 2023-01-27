@@ -43,6 +43,7 @@ etc...
 
 On peut voir les résultats des rendus dans le dossier document.
 
-# Partie 2 - ??
+# Partie 2 - Évolution temporelle dans le cas d’un puits infini et d’un potentiel harmonique
 
-blablabla
+On étudie dans cette partie l’évolution temporelle de la fonction d’onde $\Psi(x, t)$ d’un état
+décrit par une fonction d’onde initiale $\Psi(x, 0)$.
