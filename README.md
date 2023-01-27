@@ -12,6 +12,8 @@ puis lancer Jupyter Notebook
 
 # Partie 1 - Etats stationnaires
 
+Dans un premier temps, on pourra considérer uniquement les états stationnaires du problème, ce qui permettra de traiter d’abord la discrétisation spatiale.
+
 ## Vérification de la validité du modèle numérique
 
 Le but ici est de modéliser numériquement des états stationnaires avec un potentiel indépendant du temps.
