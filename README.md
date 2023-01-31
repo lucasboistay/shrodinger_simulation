@@ -62,6 +62,14 @@ Ici, on utilise l'algorithme d'Euler explicite pour obtenir l'évolution tempore
 
 Lors de la partie 1, on utilisait un Hamiltonien à valeurs réelles, ici nous sommes obligés d'utiliser des valeurs complexes.
 
+On obtient pour l'algorithme d'Euler :
+
+$$ \Psi(x,t+1) = \Psi(x,t) + dt\cdot f(\Psi(x,t+1)) $$
+
+avec
+
+$$ f(\Psi(x,t)) = -iH\Psi(x,t) $$
+
 ### Puit de potentiel inifini
 
 #### Etat stationnaire
@@ -78,3 +86,8 @@ Lors de la partie 1, on utilisait un Hamiltonien à valeurs réelles, ici nous s
 ![](/docs/tempo/psi_fonction_de_x_euler_gaussienne_m100000_duree_10000.jpeg?raw=true)
 
 ![](/docs/tempo/anim.gif?raw=true)
+
+On remarque bien ici que la quantité de calcul demandée est énorme, et ce même pour un temps très court. On va donc tenter une nouvelle méthode : l'algorithme de Runge-Kutta d'ordre 4
+
+## Algorithme de Runge-Kutta d'ordre 4
+
