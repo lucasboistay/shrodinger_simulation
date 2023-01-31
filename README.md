@@ -99,9 +99,9 @@ avec :
 
 $$ k_1 = f(\Psi(x,t))$$
 
-$$ k_2 = f(\Psi(x,t) + \frac{1}{2} dt\cdot h k_1)$$
+$$ k_2 = f(\Psi(x,t) + \frac{1}{2} dt\cdot k_1)$$
 
-$$ k_3 = f(\Psi(x,t) + \frac{1}{2} dt\cdot h k_2)$$
+$$ k_3 = f(\Psi(x,t) + \frac{1}{2} dt\cdot k_2)$$
 
 $$ k_4 = f(\Psi(x,t) + dt\cdot k_3)$$
 
