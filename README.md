@@ -32,13 +32,13 @@ Ce qui nous permet de les comparer aux résultats théorique et de vérifier la 
 
 ### Puit de potentiel infini
 
-![](/etat_stationnaire/document/psi_fonction_de_x_puit_infini_n10.png?raw=true)
-![](/etat_stationnaire/document/psi_fonction_de_x_puit_infini_n100.png?raw=true)
+![](/docs/statio/psi_fonction_de_x_puit_infini_n100.png?raw=true)
+![](/docs/statio/psi_fonction_de_x_puit_infini_n1000.png?raw=true)
 
 ### Potentiel Harmonique
 
-![](/etat_stationnaire/document/psi_fonction_de_x_harmonique_n10.png?raw=true)
-![](/etat_stationnaire/document/psi_fonction_de_x_harmonique_n100.png?raw=true)
+![](/docs/statio/psi_fonction_de_x_harmonique_n100.png?raw=true)
+![](/docs/statio/psi_fonction_de_x_harmonique_n1000.png?raw=true)
 
 ## Tentative avec d'autres potentiels plus compliqués
 
