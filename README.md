@@ -56,3 +56,21 @@ On étudie dans cette partie l’évolution temporelle de la fonction d’onde $
 
 On considèrera d’abord le puits infini et le potentiel harmonique, pour lesquelles les solutions analytiques exactes sont connues, afin de vérifier l’évolution temporelle obtenue numériquement.
 
+## Algorithme d'Euler
+
+Ici, on utilise l'algorithme d'Euler explicite pour obtenir l'évolution temporelle de la fonction d'onde. Cet algorithme, bien que simple à utiliser, n'est pas très efficace.
+
+Lors de la partie 1, on utilisait un Hamiltonien à valeurs réelles, ici nous sommes obligés d'utiliser des valeurs complexes.
+
+### Puit de potentiel inifini
+
+#### Etat stationnaire
+
+![](/docs/tempo/psi_fonction_de_x_euler_etat_statio0_m10000_duree_10.png?raw=true)
+![](/docs/tempo/psi_fonction_de_x_euler_etat_statio0_m100000_duree_10.png?raw=true)
+
+#### Paquet d'onde gaussien
+
+![](/docs/tempo/psi_fonction_de_x_euler_gaussienne_m10000_duree_1000.png?raw=true)
+
+![](/docs/tempo/psi_fonction_de_x_euler_gaussienne_m10000_duree_2000.png?raw=true)
