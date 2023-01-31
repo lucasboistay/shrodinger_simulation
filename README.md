@@ -76,3 +76,5 @@ Lors de la partie 1, on utilisait un Hamiltonien à valeurs réelles, ici nous s
 ![](/docs/tempo/psi_fonction_de_x_euler_gaussienne_m10000_duree_2000.jpeg?raw=true)
 
 ![](/docs/tempo/psi_fonction_de_x_euler_gaussienne_m100000_duree_10000.jpeg?raw=true)
+
+![](/docs/tempo/anim.giv?raw=true)
