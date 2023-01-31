@@ -66,11 +66,11 @@ Lors de la partie 1, on utilisait un Hamiltonien à valeurs réelles, ici nous s
 
 #### Etat stationnaire
 
-![](/docs/tempo/psi_fonction_de_x_euler_etat_statio0_m10000_duree_10.png?raw=true)
-![](/docs/tempo/psi_fonction_de_x_euler_etat_statio0_m100000_duree_10.png?raw=true)
+![](/docs/tempo/psi_fonction_de_x_euler_etat_statio0_m10000_duree_10.jpeg?raw=true)
+![](/docs/tempo/psi_fonction_de_x_euler_etat_statio0_m100000_duree_10.jpeg?raw=true)
 
 #### Paquet d'onde gaussien
 
-![](/docs/tempo/psi_fonction_de_x_euler_gaussienne_m10000_duree_1000.png?raw=true)
+![](/docs/tempo/psi_fonction_de_x_euler_gaussienne_m10000_duree_1000.jpeg?raw=true)
 
-![](/docs/tempo/psi_fonction_de_x_euler_gaussienne_m10000_duree_2000.png?raw=true)
+![](/docs/tempo/psi_fonction_de_x_euler_gaussienne_m10000_duree_2000.jpeg?raw=true)
