@@ -98,8 +98,11 @@ $$ \Psi(x,t+1) = \Psi(x,t) + dt\cdot (\frac{1}{6}k_1 + \frac{1}{3}k_2 + \frac{1}
 avec :
 
 $$ k_1 = f(\Psi(x,t))$$
+et
 $$ k_2 = f(\Psi(x,t) + \frac{1}{2} dt\cdot h k_1) $$
+et
 $$ k_3 = f(\Psi(x,t) + \frac{1}{2} dt\cdot h k_2) $$
+et enfin 
 $$ k_4 = f(\Psi(x,t) + dt\cdot k_3) $$
 
 # Sources : 
