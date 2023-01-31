@@ -64,7 +64,7 @@ Lors de la partie 1, on utilisait un Hamiltonien à valeurs réelles, ici nous s
 
 On obtient pour l'algorithme d'Euler :
 
-$$ \Psi(x,t+1) = \Psi(x,t) + dt\cdot f(\Psi(x,t+1)) $$
+$$ \Psi(x,t+1) = \Psi(x,t) + dt\cdot f(\Psi(x,t)) $$
 
 avec
 
@@ -91,3 +91,21 @@ On remarque bien ici que la quantité de calcul demandée est énorme, et ce mê
 
 ## Algorithme de Runge-Kutta d'ordre 4
 
+Pour cet algorithme, on a :
+
+$$ \Psi(x,t+1) = \Psi(x,t) + dt\cdot (\frac{1}{6}k_1 + \frac{1}{3}k_2 + \frac{1}{3}k_3 + \frac{1}{6}k_4)$$
+
+avec :
+
+$$ k_1 = f(\Psi(x,t))$$
+$$ k_2 = f(\Psi(x,t) + \frac{1}{2} dt\cdot hk_1) $$
+$$ k_3 = f(\Psi(x,t) + \frac{1}{2} dt\cdot hk_2) $$
+$$ k_4 = f(\Psi(x,t) + dt\cdot k_3) $$
+
+# Sources : 
+
+ - https://www.f-legrand.fr/scidoc/docmml/numerique/euler/euler/euler.html
+ - https://www.youtube.com/watch?v=tsK72kSgPoI
+ - https://www.moonbooks.org/Articles/How-to-create-a-matrix-of-complex-numbers-in-python-using-numpy-/
+ - https://femto-physique.fr/analyse-numerique/runge-kutta.php
+ - 
