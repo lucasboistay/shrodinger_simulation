@@ -1,10 +1,5 @@
 # TP de Physique Numérique : Dynamique Quantique
-
-La possibilité de décrire l’évolution temporelle d’un système quantique, c’est à dire l’évolution au cours du temps de sa fonction d’onde $\Psi(\vec{r}, t)$, est un des résultats majeurs de la physique quantique. Pour cela, il est nécessaire de résoudre **l’équation de Schrödinger** dépendante du temps :
-
-$$i \hbar \frac{\partial}{\partial t}\Psi(\vec{r},t) = \hat H \Psi(\vec{r},t)$$
-
-où $\hat{H}$ est le hamiltonien du système et où l’on suppose connue la fonction d’onde $\Psi(\vec{r}, t =0)$ à un instant initial. Hormis quelques cas particuliers où des solutions analytiques peuvent êtres trouvées (souvent au prix d’approximations), on a recourt en général à des méthodes d’intégration numériques.
+Les tp de physique numérique pour modéliser et utiliser l'informatique dans la physique
 
 ## Installation 
 
@@ -32,13 +27,13 @@ Ce qui nous permet de les comparer aux résultats théorique et de vérifier la 
 
 ### Puit de potentiel infini
 
-![](/docs/statio/psi_fonction_de_x_puit_infini_n100.png?raw=true)
-![](/docs/statio/psi_fonction_de_x_puit_infini_n1000.png?raw=true)
+![](/etat_stationnaire/document/psi_fonction_de_x_puit_infini_n10.png?raw=true)
+![](/etat_stationnaire/document/psi_fonction_de_x_puit_infini_n100.png?raw=true)
 
 ### Potentiel Harmonique
 
-![](/docs/statio/psi_fonction_de_x_harmonique_n100.png?raw=true)
-![](/docs/statio/psi_fonction_de_x_harmonique_n1000.png?raw=true)
+![](/etat_stationnaire/document/psi_fonction_de_x_harmonique_n10.png?raw=true)
+![](/etat_stationnaire/document/psi_fonction_de_x_harmonique_n100.png?raw=true)
 
 ## Tentative avec d'autres potentiels plus compliqués
 
@@ -50,65 +45,6 @@ etc...
 
 On peut voir les résultats des rendus dans le dossier document.
 
-# Partie 2 - Évolution temporelle dans le cas d’un puits infini et d’un potentiel harmonique
+# Partie 2 - ??
 
-On étudie dans cette partie l’évolution temporelle de la fonction d’onde $\Psi(x, t)$ d’un état décrit par une fonction d’onde initiale $\Psi(x, 0)$.
-
-On considèrera d’abord le puits infini et le potentiel harmonique, pour lesquelles les solutions analytiques exactes sont connues, afin de vérifier l’évolution temporelle obtenue numériquement.
-
-## Algorithme d'Euler
-
-Ici, on utilise l'algorithme d'Euler explicite pour obtenir l'évolution temporelle de la fonction d'onde. Cet algorithme, bien que simple à utiliser, n'est pas très efficace.
-
-Lors de la partie 1, on utilisait un Hamiltonien à valeurs réelles, ici nous sommes obligés d'utiliser des valeurs complexes.
-
-On obtient pour l'algorithme d'Euler :
-
-$$ \Psi(x,t+1) = \Psi(x,t) + dt\cdot f(\Psi(x,t)) $$
-
-avec
-
-$$ f(\Psi(x,t)) = -iH\Psi(x,t) $$
-
-### Puit de potentiel inifini
-
-#### Etat stationnaire
-
-![](/docs/tempo/psi_fonction_de_x_euler_etat_statio0_m10000_duree_10.jpeg?raw=true)
-![](/docs/tempo/psi_fonction_de_x_euler_etat_statio0_m100000_duree_10.jpeg?raw=true)
-
-#### Paquet d'onde gaussien
-
-![](/docs/tempo/psi_fonction_de_x_euler_gaussienne_m10000_duree_1000.jpeg?raw=true)
-
-![](/docs/tempo/psi_fonction_de_x_euler_gaussienne_m10000_duree_2000.jpeg?raw=true)
-
-![](/docs/tempo/psi_fonction_de_x_euler_gaussienne_m100000_duree_10000.jpeg?raw=true)
-
-![](/docs/tempo/anim.gif?raw=true)
-
-On remarque bien ici que la quantité de calcul demandée est énorme, et ce même pour un temps très court. On va donc tenter une nouvelle méthode : l'algorithme de Runge-Kutta d'ordre 4
-
-## Algorithme de Runge-Kutta d'ordre 4
-
-Pour cet algorithme, on a :
-
-$$ \Psi(x,t+1) = \Psi(x,t) + dt\cdot (\frac{1}{6}k_1 + \frac{1}{3}k_2 + \frac{1}{3}k_3 + \frac{1}{6}k_4)$$
-
-avec :
-
-$$ k_1 = f(\Psi(x,t))$$
-
-$$ k_2 = f(\Psi(x,t) + \frac{1}{2} dt\cdot k_1)$$
-
-$$ k_3 = f(\Psi(x,t) + \frac{1}{2} dt\cdot k_2)$$
-
-$$ k_4 = f(\Psi(x,t) + dt\cdot k_3)$$
-
-# Sources : 
-
- - https://www.f-legrand.fr/scidoc/docmml/numerique/euler/euler/euler.html
- - https://www.youtube.com/watch?v=tsK72kSgPoI
- - https://www.moonbooks.org/Articles/How-to-create-a-matrix-of-complex-numbers-in-python-using-numpy-/
- - https://femto-physique.fr/analyse-numerique/runge-kutta.php
- - 
+blablabla
