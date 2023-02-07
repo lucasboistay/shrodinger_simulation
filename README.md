@@ -105,6 +105,13 @@ $$ k_3 = f(\Psi(x,t) + \frac{1}{2} dt\cdot k_2)$$
 
 $$ k_4 = f(\Psi(x,t) + dt\cdot k_3)$$
 
+On obtient alors :
+
+![](/docs/tempo/anim_gauss_pot_nul_séparé.gif?raw=true)
+
+On remarque bien ici que l'algorithme de Runge-Kutta d'ordre 4 est bien plus précis, et beaucoup moins
+demandant en ressources.
+
 # Sources : 
 
  - https://www.f-legrand.fr/scidoc/docmml/numerique/euler/euler/euler.html
