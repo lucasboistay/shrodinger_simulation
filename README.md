@@ -1,10 +1,5 @@
 # TP de Physique Numérique : Dynamique Quantique
-
-La possibilité de décrire l’évolution temporelle d’un système quantique, c’est à dire l’évolution au cours du temps de sa fonction d’onde $\Psi(\vec{r}, t)$, est un des résultats majeurs de la physique quantique. Pour cela, il est nécessaire de résoudre **l’équation de Schrödinger** dépendante du temps :
-
-$$i \hbar \frac{\partial}{\partial t}\Psi(\vec{r},t) = \hat H \Psi(\vec{r},t)$$
-
-où $\hat{H}$ est le hamiltonien du système et où l’on suppose connue la fonction d’onde $\Psi(\vec{r}, t =0)$ à un instant initial. Hormis quelques cas particuliers où des solutions analytiques peuvent êtres trouvées (souvent au prix d’approximations), on a recourt en général à des méthodes d’intégration numériques.
+Les tp de physique numérique pour modéliser et utiliser l'informatique dans la physique
 
 ## Installation 
 
@@ -32,13 +27,13 @@ Ce qui nous permet de les comparer aux résultats théorique et de vérifier la 
 
 ### Puit de potentiel infini
 
-![](/docs/statio/psi_fonction_de_x_puit_infini_n100.png?raw=true)
-![](/docs/statio/psi_fonction_de_x_puit_infini_n1000.png?raw=true)
+![](/etat_stationnaire/document/psi_fonction_de_x_puit_infini_n10.png?raw=true)
+![](/etat_stationnaire/document/psi_fonction_de_x_puit_infini_n100.png?raw=true)
 
 ### Potentiel Harmonique
 
-![](/docs/statio/psi_fonction_de_x_harmonique_n100.png?raw=true)
-![](/docs/statio/psi_fonction_de_x_harmonique_n1000.png?raw=true)
+![](/etat_stationnaire/document/psi_fonction_de_x_harmonique_n10.png?raw=true)
+![](/etat_stationnaire/document/psi_fonction_de_x_harmonique_n100.png?raw=true)
 
 ## Tentative avec d'autres potentiels plus compliqués
 
@@ -105,10 +100,12 @@ $$ k_3 = f(\Psi(x,t) + \frac{1}{2} dt\cdot k_2)$$
 
 $$ k_4 = f(\Psi(x,t) + dt\cdot k_3)$$
 
+On obtient alors :
+
+![](/docs/tempo/anim_gauss_pot_nul_séparé.gif?raw=true)
+
+On remarque bien ici que l'algorithme de Runge-Kutta d'ordre 4 est bien plus précis, et beaucoup moins
+demandant en ressources.
+
 # Sources : 
 
- - https://www.f-legrand.fr/scidoc/docmml/numerique/euler/euler/euler.html
- - https://www.youtube.com/watch?v=tsK72kSgPoI
- - https://www.moonbooks.org/Articles/How-to-create-a-matrix-of-complex-numbers-in-python-using-numpy-/
- - https://femto-physique.fr/analyse-numerique/runge-kutta.php
- - 
