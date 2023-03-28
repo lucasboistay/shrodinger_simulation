@@ -1,5 +1,9 @@
 # TP de Physique Numérique : Dynamique Quantique
-Les tp de physique numérique pour modéliser et utiliser l'informatique dans la physique
+
+Résolution de l'équation de Schrödinger à une dimension, d'abord en état stationnaire puis avec un paquet
+d'onde gaussien. 
+
+Simulation temporelle d'une particule dans un double puit de potentiel.
 
 ## Installation :
 
