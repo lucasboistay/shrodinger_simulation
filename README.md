@@ -13,5 +13,5 @@ puis lancer Jupyter Notebook
 ## Compte-rendu :
 
 Voir le PDF :
-[Compte Rendu Numérique](Projet_Num_rique___Dynamique_Quantique.pdf)
+[Compte Rendu Numérique](Projet_Numerique_Dynamique_Quantique.pdf)
 
