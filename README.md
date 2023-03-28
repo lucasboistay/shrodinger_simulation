@@ -3,7 +3,7 @@
 Résolution de l'équation de Schrödinger à une dimension, d'abord en état stationnaire puis avec un paquet
 d'onde gaussien. 
 
-Simulation temporelle d'une particule dans un double puit de potentiel.
+Simulation temporelle d'une particule dans un double puits de potentiel.
 
 ## Installation :
 
