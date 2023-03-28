@@ -10,6 +10,7 @@ Simulation temporelle d'une particule dans un double puits de potentiel.
 Pour installer le dossier, copier dans la console git 
 ```sh
 git clone https://github.com/Rockinfox91/phys_num_quantique.git
+cd phys_num_quantique
 ```
 
 puis lancer Jupyter Notebook
